@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial;
+}
+nav {
+  background-color: lightpink;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color:rgb(244, 26, 117);
+  font-size: 35px;
+  font-family: cursive;
+  line-height: 80px;
+  padding: 100px;
+  font-weight: bold;
+  margin-left: 0px;
+
+}
+nav ul{
+  color: rgb(242, 64, 129);
+  float: right;
+  margin-right: 20px;
+}
+nav ul{
+  display: flex;
+  line-height: 50px;
+  margin: 5px; 
+  margin-top: 15px;
+}
+.home-button{
+  margin-right: 25px;
+  font-size: 20px ;
+  cursor: pointer;
+}
+.contact-button{
+  margin-right: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.service-button{
+  margin-right: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.about-button {
+  margin-right: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.feedback-button {
+  margin-right: 40px;
+  font-size: 20px;
+  cursor: pointer;
+ 
+  
+}
+nav ul :hover {
+  color: rgb(183, 20, 99)
+}
+nav ul {
+  transition: background-color 0.15s;
+}
+h1{
+  color: lightcoral;
+  font-family: comic sans ms;
+  font-size: 45px;
+  padding-top:100px;
+  padding: 100px;
+border: none;
+border-radius: 18px;
+}
+nav a{
+
+  font size: 18px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+nav ul: hover{
+  border: 1px solid white;
+  transition: .5s;
+}
